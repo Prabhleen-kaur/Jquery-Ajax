@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> <!--unicode transformation format preffered for webpages and emails -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="index.css">
+      <link rel="stylesheet" type="text/css" href="index1.css">
+	<title>IMDB</title>
+
+</head>
+<body>
+	<div class="bg">
+<div class="parent">
+
+<!--Navbar--><div class="n1">
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+  <a class="navbar-brand" href="#">Search by:</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+   
+       <div class="t2">
+        <li class="nav-item active n3">
+        <a class="nav-link" href="#">TitleandYear</a>
+      </li></div>
+      <div class="t3">
+        <li class="nav-item active n4">
+        <a class="nav-link" href="#">ID</a>
+        </div>
+      </li></div></ul></div></nav>
+    
+
+ <div class="container a">
+   <div class="row">
+    <div class="col-12">
+    	<div class="t4">
+    
+    <div class="titleyear">
+    	   <input class="form-control form-control-lg " type="text" placeholder="Enter Title of movie"id="search3">
+    	   <input class="form-control form-control-lg " type="text" placeholder="Enter year of movie" id="search4">
+    	   <button type="submit" class="btn btn-secondary mb-2 btn-block " id="search5">Search</button></div>
+    
+    <div class="i2">
+    	   <input class="form-control form-control-lg " type="text" placeholder="Enter id of movie" id="search6"><button type="submit" class="btn btn-secondary mb-2 btn-block " id="search7">Search</button></div>
+    </div></div>
+
+</div>
+</div></div>
+</div></div>
+
+
+
+
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Welcome to IMDB
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="parent1">
+			<div class="na">
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <a class="navbar-brand" href="#"></a>
+  
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" style="width: 10%">
+    <ul class="navbar-nav">
+     <div class="t1">
+      <li class="nav-item active n2">
+        <a class="nav-link na" href="#">Back to Home page</a>
+      </li></div>
+      
+    </ul></div></nav></div>
+
+    <div class="h">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+           <img src="film.jpg " class="img-fluid film" alt="Film">
+        </div>
+        <div class="col-6">
+        <div class="title1"></div></div>
+        <div class="col-3">
+           <img src="movie.png " class="img-fluid film" alt="Film">
+        </div></div></div></div>
+          <div class="cul">
+        <div class="container">
+        <div class="row">
+          <div class=" col-12 col-md-5">
+            <div class="card" style="width: 80%; height:20%">
+
+  <img class="card-img-top poster" src="..." alt="Poster">
+  <div class="card-body" style="background-color: #ffbf00">
+    
+      <h5 class="card-title type first-alphabet-large"></h5>
+      <h6 class="card-subtitle  year mb-2 fa-fa calendar"></h6>
+       <h7 class="card-subtitle country"></h7>
+        <div class="row">
+<div class="col-4"><h8 class="card-subtitle runtime"></h8></div>
+<div class="col-8"><h9 class ="card-subtitle genre"></h9></div>
+     </div>
+
+     
+    <p class="card-text plot">Plot of the movie:</p>
+  </div></div>
+</div> 
+<div class="col-12 col-md-7">
+  
+  <div class ="row">
+    <div class="col-3">
+     <img src="star.png " class="img-fluid">
+    </div>
+  <div class="col-9">
+  <h1 class="star">Rating of the movie :</h1></div>
+  </div>
+ 
+  <!--  <div class ="col-3"></div>
+    <div class="col-9"> -->
+    <div class="r">
+<div class="row">
+<div class ="col-6 ImdbRating"></div>
+  <div class="col-6 metascore"></div></div>
+  <div class="row">
+  <div class="col-12 ImdbVotes"></div>
+</div>
+<div class="row">
+  <div class ="col-9 st">
+   <span class="fa fa-star checked" style="font-size:35px"></span>
+  <span class="fa fa-star checked" style="font-size:35px"></span>
+<span class="fa fa-star checked" style="font-size:35px"></span>
+<span class="fa fa-star checked" style="font-size:35px"></span>
+<span class="fa fa-star checked" style="font-size:35px"></span>
+<span class="fa fa-star checked" style="font-size:35px"></span>
+<span class="fa fa-star checked"style="font-size:35px"></span>
+<span class="fa fa-star checked" style="font-size:35px"></span>
+<span class="fa fa-star checked" style="font-size:35px"></span>
+<span class="fa fa-star checked" style="font-size:35px"></span></div>
+<div class="col-3 t">/10</div>
+  <div class="col-12 ratings "></div>
+</div></div>
+<hr>
+<div class="col-12">
+<p class="cast"> Casting Details and other details of movie</p>
+</div>
+<div class="casting">
+<div class="col-12 director"></div>
+<div class="col-12 writer"></div>
+<div class="col-12 actor"></div>
+<div class="col-12 dvd"></div>
+<div class="col-12 boxoffice"></div>
+<div class="col-12 awards"></div>
+<div class="col-12 production"></div>
+<div class="col-12 website"></div></div>
+
+    
+
+</div>
+</div>
+
+</div></div>
+
+</div>
+    </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+<script type="text/javascript">
+  $('#exampleModal').modal()
+
+</script>
+</body>
+</html>
+
+
+
+

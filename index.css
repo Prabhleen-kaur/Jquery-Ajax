@@ -1,0 +1,160 @@
+
+:root{
+	font-size: 16px;
+	}
+.parent{
+		font-size: 16px;
+
+
+}
+body,html{
+	height: 100%;
+}
+
+
+.n3{
+	margin-left: 20vmax;
+	font-size: 2rem;
+}
+
+.n4{
+	margin-left: 20vmax;
+	font-size: 2rem;
+}
+.t4{
+	margin-top: 20%;
+
+
+}
+.b1{
+	margin-left: 80%;
+}
+
+.bg{
+    height:  100%;
+       background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imdb.jpg);
+}
+	
+.heading{
+	margin-left: 38%;
+	margin-top: 2%;
+	font-size: 7rem;
+	color:blue;
+	font-size: bold;
+}
+.parent1{
+	font-size: 16px;
+
+}
+.title1{
+	margin-left: 25%;
+margin-top: 3%;
+	font-size: 3rem;
+	font-style: italic;
+	font-weight: 700;
+color:#ffbf00;
+}
+
+.h{
+	background-color: black;
+
+}
+.type{
+border: 3px solid red;
+background-color: black;
+font-size: 2rem;
+color: #ffbf00;
+font-weight: 500;
+text-align: center;
+font-style: italic;
+}
+.first-alphabet-large::first-letter{
+font-size: 2rem;
+}
+.type:hover{
+	color: red;
+}
+.title1:hover{
+	color: red;
+}
+.plot{
+	font-style: italic;
+	font-weight: 700;
+	
+}
+.year{
+	text-align: center;
+	font-weight: bold;
+}
+.checked{
+	color:LightGray;
+}
+.para{
+	font-size:2rem;
+	color: gray;
+	margin-top: 2%;
+}
+.star{
+	margin-top: 10%;
+}
+.metascore{
+	font-size: 1.5rem;
+}
+.ImdbRating{
+	font-size: 1.5rem;
+}
+.ImdbVotes{
+	font-size: 1.5rem;
+}
+.ratings{
+	font-size: 1.5rem;
+	margin-top: 2%;
+}
+.r{
+	color: #ffbf00 ;
+	background-color: black;
+}
+.t{
+	
+	font-size: 1.5rem;
+	margin-top: 5%;
+}
+.cast{
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.st{
+	margin-top: 5%;
+}
+.casting{
+	font-size: 1.5rem;
+	margin-top: 5%;
+	color:#ffbf00;
+	background-color: black; 
+}
+.cul{
+	background-color: 
+ #ffffb3;
+}
+.film{
+	height: 70%;
+	margin-top: 2%;
+}
+@media screen and (max-width:800px){
+	.title1{
+		font-size: 1rem;
+	}
+	.film{
+		height: 4rem;
+	}
+	.card{
+		width: 100%;
+	}
+
+} 
+
+
+
